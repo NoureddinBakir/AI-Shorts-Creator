@@ -56,7 +56,7 @@ pip install -r requirements.txt
 5. Run the script:
 
 ```shell
-python auto_cropper.py
+python3 autocropper.py
 ```
 
 The script will download the YouTube video, analyze its transcript using OpenAI's GPT-4, extract the best sections based on the analysis, crop the video using FFmpeg, and apply face detection using OpenCV to further refine the cropping.
